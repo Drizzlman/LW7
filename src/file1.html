@@ -49,11 +49,11 @@
             document.write("</td><td>");
             document.write(x[i].getElementsByTagName("student")[0].childNodes[0].nodeValue);
             document.write("</td><td>");
-            document.write(x[i].getElementsByTagName("grade")[0].childNodes[0].nodeValue);
+            //document.write(x[i].getElementsByTagName("grade")[0].childNodes[0].nodeValue);
 
-            //res1 = x[i].getElementsByTagName("grade")[0].childNodes[0].nodeValue;
-            //res2 = x[i].nodeValue;
-            //onChangeGrade(res1, res2);
+            res1 = x[i].getElementsByTagName("grade")[0].childNodes[0].nodeValue;
+            res2 = x[i].nodeValue;
+            onChangeGrade(res1, res2);
             document.write("</td></tr>");
         }
 
